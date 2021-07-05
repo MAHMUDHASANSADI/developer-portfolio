@@ -50,4 +50,15 @@ h1{
     background-repeat: no-repeat;
     background-image: url(images/exp-bg.png);
     background-position: left;
+    
+}
+#web{
+    border-left: 7px solid;
+    border-image: url(border.png) 30 round;
+    border-image-slice: 2;
+}
+#bay-web{
+   border-right: 7px solid;
+    border-image: linear-gradient(blue green);
+    border-image-slice: 2;
 }
